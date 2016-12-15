@@ -88,7 +88,7 @@ int main(void)
   MX_TIM2_Init();
   
      HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_2);
-   HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_3);
+  // HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_3);
 
   /* USER CODE BEGIN 2 */
 
@@ -107,12 +107,12 @@ int main(void)
 
 //    
        TIM2->CCR3=250;
-  //     TIM2->CCR2=0;
+       TIM2->CCR2=0;
         delay(2000);
     
            TIM2->CCR3=0;
-       TIM2->CCR2=500;
-        delay(2000);
+   //    TIM2->CCR2=500;
+    //    delay(2000);
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
