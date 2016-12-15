@@ -98,12 +98,12 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
- //    TIM2->CCR2=550;
- //    TIM2->CCR3=80;
+     TIM2->CCR2=550;
+     TIM2->CCR3=80;
     
        TIM2->CCR3=90;
-       TIM2->CCR2=500;
-     delay(2000);
+     //  TIM2->CCR2=500;
+    // delay(2000);
 
 //    
        TIM2->CCR3=250;
