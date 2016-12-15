@@ -107,7 +107,7 @@ int main(void)
 
 //    
        TIM2->CCR3=250;
-       TIM2->CCR2=0;
+  //     TIM2->CCR2=0;
         delay(2000);
     
            TIM2->CCR3=0;
